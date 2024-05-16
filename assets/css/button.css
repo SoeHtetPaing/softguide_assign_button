@@ -1,0 +1,96 @@
+body{
+    font-family: Cambria;
+}
+
+.container {
+    margin: 0 3rem;
+    padding: 5px;
+}
+
+.btn-group {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.btn {
+    margin: 0.5rem;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.secondary {
+    background-color: silver;
+    color: white;
+}
+
+.success {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.info {
+    background-color: aqua;
+    color: white;
+}
+
+.warning {
+    background-color: gold;
+    color: white;
+}
+
+.danger {
+    background-color: red;
+    color: white;
+}
+
+.round {
+    border-radius: 50vh;
+}
+
+.circle {
+    border-radius: 100vh;
+}
+
+.dash {
+    background-color: transparent;
+    border: 1px dashed dodgerblue;
+    color: dodgerblue;
+}
+
+.link {
+    background-color: transparent;
+    color: dodgerblue;
+}
+
+.outline-primary {
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.offset {
+    background-color: transparent;
+    color: dodgerblue;
+    border-top: 4px solid dodgerblue;
+    border-left: 4px solid dodgerblue;
+    border-radius: 0;
+    box-shadow: 4px 4px;
+    
+}
+
+.flip {
+    border-radius: 0;
+}
+
+.outline-primary:hover {
+    background-color: dodgerblue;
+    color: white;
+}
